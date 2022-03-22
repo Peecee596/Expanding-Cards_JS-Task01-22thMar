@@ -1,0 +1,31 @@
+.image{
+    width: 7vw;
+    height:80vh;
+    /* border-radius: 50px; */
+    cursor:pointer;
+    padding: 0;
+    transition: ease-in;
+}
+.pannel{
+    position: relative;
+    margin:10px;
+  
+}
+h3{
+   font-size: 20px;
+   opacity: 0;
+   overflow: hidden;
+}
+.pannel.active{
+   flex: 0.2;
+   
+}
+.pannel.active img{
+   width: 100%;
+}
+.pannel.active h3{
+    opacity: 1;
+    color: white;
+    transition:  all 0.3s ease-in;
+    
+}
